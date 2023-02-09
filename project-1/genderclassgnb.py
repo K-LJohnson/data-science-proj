@@ -25,8 +25,7 @@ gnb = gnb.fit(x,y)
 prediction = gnb.predict([[190,70,43]])
 
 
-#print the predicted result
+
 print(prediction)
 
-#I would be [170,57,38], my result should be female. This model is better at 
-#predicting gender than the binary tree model!
+
